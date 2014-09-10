@@ -9,4 +9,6 @@ I needed to be able to track down an issue where Snorby and Bro stopped updating
 
 These were generated using the Gliffy chrome plugin.
 
-I have left the snorby data flow off as it complicates the diagram. The snorby database is written directly by the barnyard process. This can cause issues as any issues with snorby can also cause the snort agent to stop writing to sguild. In my opinion if you are running sguil do not run snorby, it just means you have to acknowledge alerts in two places and can cause snort alerts in sguil to stop.
+I have left the snorby data flow off as it complicates the diagram. The snorby database is written directly by the barnyard process. Any issues with the snorby database can also cause the snort agent to stop writing to sguild. 
+
+In my opinion if you are running sguil do not run snorby, it just means you have to acknowledge alerts in two places and can cause snort alerts in sguil to stop.
