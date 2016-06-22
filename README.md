@@ -15,6 +15,6 @@ In my opinion if you are running sguil do not run snorby, it just means you have
 
 Having said the above my issues were caused by too many bro workers on too many pfrings causing some form of resource contention that broke both bro and snorby.
 
-Doug Burks now has an excellent diagram showing the same thing [here](https://cloud.githubusercontent.com/assets/1659467/13701945/2f04525c-e759-11e5-8d3d-7973a3f723b6.png).
+Doug Burks now has an excellent diagram showing the same thing [here](https://github.com/Security-Onion-Solutions/security-onion/wiki/Architecture).
 
 And the author of Barnyard 2 [firnsy](https://github.com/firnsy) is a friend hence the comments in my diagram...
